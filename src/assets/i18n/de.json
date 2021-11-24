@@ -1,0 +1,15 @@
+{
+    "account.activated" :"Konto erfolgreich aktiviert",
+    "account.already.activated" :"Konto bereits aktiviert",
+    "account.activation.error" :"Beim Aktivieren des Kontos ist ein Fehler aufgetreten",
+    "savedsearch.delete.error":"Fehler beim Löschen einer gespeicherten Suche",
+    "savedsearch.delete.success":"Gespeicherte Suche erfolgreich gelöscht",
+    "savedsearch.add.error":"Fehler speichernde Suche",
+    "savedsearch.get.error":"Fehler beim Speichern von Suchvorgängen",
+    "savedsearch.add.success":"Suche erfolgreich gespeichert ",
+    "password.changed.success":"Passwort erfolgreich geändert ",
+    "message.old.password.wrong": "Altes Passwort ist falsch, bitte versuchen Sie es erneut",
+    "no.result.search" :"Keine Ergebnisse gefunden",
+    "msg.login.favorite":"Bitte loggen Sie sich in Ihr Konto ein, um Favoriten hinzuzufügen"
+    
+    }

@@ -1,0 +1,34 @@
+<app-header></app-header>
+<section class="background-grey section-custom">
+
+    <div class="container">
+        <div class="container-fullscreen">
+           <app-change-password></app-change-password>
+        </div>
+    </div>
+</section>
+
+<section class="background-grey section-custom">
+
+    <div class="container">
+        <div class="container-fullscreen">
+            <div class="card">
+                <div class="card-header">
+                    <span class="h4" i18n>Favorites</span>
+                  
+                </div>
+                <div class="card-body">
+                    <div *ngIf="favorites.length != 0" class="row team-members m-b-40">
+                        <div class="col-lg-3" *ngFor="let favorite of favorites">
+                            <app-product [product]="favorite" (favoritesChanged)="getUserFavorites($event)"></app-product>
+                        </div>
+                  
+                    </div>
+                    <div *ngIf="favorites.length == 0" i18n class="h4"> You don't have any favorite products yet, start adding some</div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

@@ -1,0 +1,15 @@
+{
+"account.activated" :"Account successfully activated",
+"account.already.activated" :"Account already activated",
+"account.activation.error" :"An error occured while activating the account",
+"savedsearch.delete.error":"Error deleting saved search",
+"savedsearch.delete.success":"Saved search successfully deleted ",
+"savedsearch.add.error":"Error saving search",
+"savedsearch.get.error":"Error getting saved searchs",
+"savedsearch.add.success":"Search successfully saved ",
+"password.changed.success":"Password successfully changed ",
+"message.old.password.wrong": "Old password is wrong , please try again",
+"no.result.search" :"No results found",
+"msg.login.favorite":"Please login to your account to add favorites"
+
+}

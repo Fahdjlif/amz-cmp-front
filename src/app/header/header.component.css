@@ -1,0 +1,16 @@
+.modal-top{
+    top: 100px;
+}
+.modal-header-custom{
+    border-bottom: 0px !important;
+    line-height: 15px !important;
+}
+.modal-body-custom{
+    padding-bottom: 0px;
+}
+.nav-tabs-custom{
+    margin-bottom: 10px;
+}
+.icon-p-l{
+    padding-left: 5px;
+}

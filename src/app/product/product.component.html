@@ -1,0 +1,43 @@
+<div class="product">
+  <div class="product-image">
+    <div class="carousel  flickity-enabled is-draggable carousel-loaded" style="height: 250px; touch-action: pan-y;"
+      data-items="3" data-dots="false" data-lightbox="gallery" >
+
+      <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media"  *ngFor="let image of product.images">
+        <div class="portfolio-item-wrap" >
+          <div class="portfolio-image">
+            <a href="#"><img  #img src="{{image}}" alt=""></a>
+          </div>
+          <!-- <div class="portfolio-description">
+            <a  data-lightbox="gallery-image" href="#"
+              class="btn btn-light btn-rounded">Zoom</a>
+          </div> -->
+        </div>
+      </div>
+  </div>
+  </div>
+
+
+  <div class="product-description" style=" margin-right: 10px; margin-left: 10px;">
+      <div class="d-flex justify-content-end">
+      <a [routerLink]="" (click)="addOrRemoveFavorite()" class="card-link text-danger like">
+        <i [className]="product.favorite ? 'fa fa-star' : 'fa fa-star-o'"></i>
+      </a>
+    </div>
+    <div class="product-title">
+      <h5 data-toggle="tooltip" data-placement="left" title=""
+      [attr.data-original-title]="product.productName"> {{product.productName}}</h5>
+    </div>
+
+  </div>
+
+
+  <div style="margin-top: 30px; margin-right: 10px; margin-left: 10px;">
+    <div *ngFor="let price of product.buyingInfo">
+      <app-price [flag]="getFlag(price.flag)" [price]="price.amount" [buyUrl]="price.buyUrl"></app-price>
+    </div>
+
+  </div>
+
+ 
+</div>

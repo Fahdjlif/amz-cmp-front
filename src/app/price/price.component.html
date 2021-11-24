@@ -1,0 +1,9 @@
+<div class="d-flex justify-content-between"> 
+<img src="{{flag}}" class="avatar" data-toggle="tooltip" data-original-title="">
+<h4 *ngIf="price">{{getPriceDisplay()}}</h4>
+<button class="btn btn-sm btn-slide btn-info" data-width="100" (click)="onNavigate()"  style="width: 36px;">
+    <i class="fa fa-amazon" aria-hidden="true"></i>
+    <span i18n>Buy</span>
+</button>
+
+</div>

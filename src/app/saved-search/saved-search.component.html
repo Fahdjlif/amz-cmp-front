@@ -1,0 +1,21 @@
+<div class="p-dropdown">
+    <a href="#"><i class="icon-shopping-cart"></i></a>
+    <div class="p-dropdown-content">
+        <div class="widget-mycart" >
+            <h4 i18n>Saved searches</h4>
+            <div style="max-height: 200px; overflow: auto;">
+            
+                <div class="cart-item" *ngFor="let savedSearch of savedSearchs">
+                
+                    <div class="cart-product-meta">
+                        <a [routerLink]="" (click)="executeSearch(savedSearch)">{{savedSearch.name}}</a>
+                    </div>
+                    <div class="cart-item-remove">
+                        <a [routerLink]="" (click)="removeSavedSearch(savedSearch)"><i class="fa fa-trash"></i></a></div>
+                </div>
+              
+            
+            </div>   
+        </div>
+    </div>
+</div>

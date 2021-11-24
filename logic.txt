@@ -1,0 +1,21 @@
+languages :
+
+english
+french
+german
+spanish
+portuguese
+dutsch
+sweedish
+finnish
+
+
+amazon list :
+
+com
+fr
+de
+uk
+
+
+request --> 8 products --> nbrOfMarketplaces * request_for_each_product --> process the final list { product name , prices list + links , images list,nextPage,hasMore}

@@ -1,0 +1,190 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "prodG": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "en": "src/translate/messages.en.xlf",
+          "fr": "src/translate/messages.fr.xlf",
+          "de": "src/translate/messages.de.xlf",
+          "it": "src/translate/messages.it.xlf",
+          "es": "src/translate/messages.es.xlf"
+        }
+      },
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/prodG",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "localize":true,
+            "aot": true,
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/assets/css/plugins.css",
+              "src/styles.css",
+              "src/star-rating.css",
+              "src/assets/css/polo_style.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "src/assets/plugins/range-slider/rangeslider.css",
+              "src/assets/plugins/bootstrap-switch/bootstrap-switch.css",
+              "node_modules/ngx-toastr/toastr.css"
+
+            ],
+            "scripts": [
+              "src/assets/js/jquery.js",
+              "src/assets/plugins/popper/popper.min.js",
+              "src/assets/js/plugins.js",
+              "src/assets/js/functions.js",
+              "src/assets/plugins/range-slider/rangeslider.js",
+              "src/assets/plugins/validate/validate.min.js",
+              "src/assets/plugins/bootstrap-switch/bootstrap-switch.min.js",
+              "src/assets/plugins/validate/valildate-rules.js"
+              
+            ]
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            } ,
+            "en": {
+              "localize": ["en"],
+              "baseHref": "./"
+            },
+            "fr": {
+              "localize": ["fr"],
+              "baseHref": "./"
+            },
+            "de": {
+              "localize": ["de"],
+              "baseHref": "./"
+            },
+            "it": {
+              "localize": ["it"],
+              "baseHref": "./"
+            },
+            "es": {
+              "localize": ["es"],
+              "baseHref": "./"
+            }
+          }
+         
+          
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "prodG:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "prodG:build:production"
+            },
+            "en": {
+              "browserTarget": "prodG:build:en"
+            },
+            "fr": {
+              "browserTarget": "prodG:build:fr"
+            },
+            "de": {
+              "browserTarget": "prodG:build:de"
+            },
+            "it": {
+              "browserTarget": "prodG:build:it"
+            },
+            "es": {
+              "browserTarget": "prodG:build:es"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "prodG:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
+            "scripts": []
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "tsconfig.app.json",
+              "tsconfig.spec.json",
+              "e2e/tsconfig.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "e2e/protractor.conf.js",
+            "devServerTarget": "prodG:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "prodG:serve:production"
+            }
+          }
+        }
+      }
+    }},
+  "defaultProject": "prodG"
+}

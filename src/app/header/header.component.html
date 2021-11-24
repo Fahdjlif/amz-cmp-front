@@ -1,0 +1,102 @@
+<header id="header" data-transparent="true" data-fullwidth="true" class="submenu-light header-sticky sticky-active">
+    <div class="header-inner">
+        <div class="container">
+            <!--Logo-->
+            <div id="logo">
+                <a href="">
+                    <span class="logo-default">PRODUCT GUIDES</span>
+                    <span  class="logo-dark">PRODUCT GUIDES</span>
+                </a>
+            </div>
+            <!--End: Logo-->
+            <!-- Search -->
+           
+            <!-- end: search -->
+            <!--Header Extras-->
+            <div class="header-extras">
+                <ul>
+                    <li class="icon-p-l" *ngIf="isLoggedIn">
+                        <app-saved-search></app-saved-search>
+                    </li>
+                    <li class="icon-p-l">
+                        <a data-target="#modal-prefrences" data-toggle="modal" href="#"  ><i class="fa fa-cogs"></i></a>
+                    </li>
+                    <li class="icon-p-l"  *ngIf="!isLoggedIn">
+                        <a data-target="#modal" data-toggle="modal" href="#" ><i class="icon-user"></i></a>
+                    </li>
+                    <li class="icon-p-l" *ngIf="isLoggedIn">
+                        <div class="p-dropdown">
+                            <a href="#"><i class="icon-user"></i></a>
+                            <ul class="p-dropdown-content">
+                                <li><a i18n href="#dashboard">Profile</a></li>
+                                <li><a [routerLink]="" (click)="logout()" i18n>Logout</a></li>
+                               
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-dropdown">
+                            <a href="#"><i class="icon-globe"></i><span>{{locale | uppercase}}</span></a>
+                            <ul class="p-dropdown-content">
+                                <li><a i18n href="/en/">English</a></li>
+                                <li><a i18n href="/de/">German</a></li>
+                                <li><a i18n href="/fr/">French</a></li>
+                                <li><a i18n href="/es/">Spanish</a></li>
+                                <li><a i18n href="/it/">Italian</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--end: Header Extras-->
+            <!--Navigation Resposnive Trigger-->
+        <!--     <div id="mainMenu-trigger">
+                <a class="lines-button x"><span class="lines"></span></a>
+            </div> -->
+            <!--end: Navigation Resposnive Trigger-->
+           
+        </div>
+    </div>
+
+</header>
+
+<!-- modal login/sign up-->
+<div class="modal fade modal-top" id="modal" tabindex="-1" role="modal" aria-labelledby="modal-label" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header modal-header-custom">
+             
+                <div class="tabs">
+                <ul class="nav nav-tabs nav-tabs-custom" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true" i18n>Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false" i18n>Sign up</a>
+                    </li>
+                   
+                </ul>
+            </div>
+            </div>
+            <div class="modal-body modal-body-custom">
+           
+                    <div class="tabs">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane active show " id="home" role="tabpanel" aria-labelledby="home-tab">       
+                                <app-login-form></app-login-form>
+                            </div>
+                            <div class="tab-pane  " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <app-register-form></app-register-form>
+                            </div>
+                         
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Prefrences Modal-->
+<div class="modal fade modal-top" id="modal-prefrences" tabindex="-1" role="modal" aria-labelledby="modal-label-3" aria-modal="true" style="padding-right: 15px; display: block;">
+  <app-prefrences-modal></app-prefrences-modal>
+</div>

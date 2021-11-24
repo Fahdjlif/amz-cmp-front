@@ -1,0 +1,15 @@
+{
+    "account.activated" :"La cuenta se ha activado con éxito",
+    "account.already.activated" :"Cuenta ya activada",
+    "account.activation.error" :"Se produjo un error al activar la cuenta",
+    "savedsearch.delete.error":"Error al borrar la búsqueda guardada",
+    "savedsearch.delete.success":"La búsqueda guardada se ha eliminado con éxito",
+    "savedsearch.add.error":"Búsqueda de ahorro de errores",
+    "savedsearch.get.error":"Error al guardar las búsquedas",
+    "savedsearch.add.success":"Búsqueda guardada con éxito ",
+    "password.changed.success":"Contraseña cambiada con éxito ",
+    "message.old.password.wrong": "La vieja contraseña es incorrecta, por favor inténtelo de nuevo.",
+    "no.result.search" :"No se han encontrado resultados",
+    "msg.login.favorite":"Por favor, acceda a su cuenta para añadir favoritos"
+    
+    }

@@ -1,0 +1,15 @@
+{
+    "account.activated" :"Conto attivato con successo",
+    "account.already.activated" :"Conto già attivato",
+    "account.activation.error" :"Si è verificato un errore durante l'attivazione del conto",
+    "savedsearch.delete.error":"Errore di cancellazione della ricerca salvata",
+    "savedsearch.delete.success":"Ricerca salvata cancellata con successo ",
+    "savedsearch.add.error":"Ricerca per il salvataggio degli errori",
+    "savedsearch.get.error":"Errore nell'ottenere le ricerche salvate",
+    "savedsearch.add.success":"Ricerca salvata con successo ",
+    "password.changed.success":"Password cambiata con successo ",
+    "message.old.password.wrong": "La vecchia password è sbagliata , si prega di riprovare",
+    "no.result.search" :"Nessun risultato trovato",
+    "msg.login.favorite":"Effettua il login al tuo account per aggiungere i preferiti"
+    
+    }

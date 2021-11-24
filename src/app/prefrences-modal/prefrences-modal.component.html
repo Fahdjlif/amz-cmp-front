@@ -1,0 +1,52 @@
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 id="modal-label-3" class="modal-title" i18n >Prefrences</h4>
+            <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+        </div>
+        <div class="modal-body">
+           
+            <div class="row">
+              
+                <div class="col-md-6 xs-box">
+                    <div class="box-services-a">
+
+                        <h3 i18n>Show prices from</h3>
+                        <table>
+                            <tr *ngFor="let account of accounts">
+                                <td><img [src]="getFlag(account.localeCode)" class="img-fluid rounded-circle" style="height: 20px;" alt=""></td>
+                                <td style="padding-left: 6px">{{account.localeCode}}</td>
+                               
+                                <td>  <label class="p-switch p-switch-sm p-switch-custom">
+                                    <input type="checkbox" name="switch" [checked]="account.active" [value]="account.localeCode" [disabled]="account.comingSoon" (change)="onShowFromChange($event.target)"><span class="p-switch-style" ></span>
+                                </label></td>
+                                <td style="padding-left: 6px" *ngIf="account.comingSoon" i18n>(Coming soon)</td>
+                            </tr>
+                        </table>
+                       
+                   
+                      
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box-services-a">
+                        <h3 i18n>Currency</h3>
+                        <label class="p-radio p-radio"  *ngFor="let currency of currencies">
+                            <span><i [class]="currency.icon"></i> </span> 
+                            <input type="radio" name="i" value="{{currency.code}}" (change)="onChange(currency)" [checked]="currency.isActive" [(ngModel)]="radioSelected">
+                            <span class="p-radio-style"></span>
+                        </label>
+                      
+                    </div>
+                </div>
+           
+            </div>
+            <div class="modal-footer">
+                <button data-dismiss="modal" class="btn btn-b" type="button" i18n>Close</button>
+                <button class="btn btn-b" type="submit" (click)="submit()" i18n>Save Changes</button>
+            </div>
+        
+        </div>
+       
+    </div>
+</div>

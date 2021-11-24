@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="c3b0c4bc32b018dfa8d0c1b7c9beae0a6a91ff48" datatype="html">
+        <source>SEARCH FOR PRODUCTS</source>
+       <target>CERCA PRODOTTI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cf530b8fe26694d9f3d00ee803f98bc352d03fcb" datatype="html">
+        <source>Look for the best price for your desired product</source>
+       <target>Cerca il prezzo migliore per il prodotto desiderato</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1befce3c6f0c468b06ae5199116e5b096a35a3ef" datatype="html">
+        <source>Buy</source>
+       <target>Acquista</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/price/price.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="80ed5b776a26a78099e230e0e89d96c33ba44e24" datatype="html">
+        <source>Results</source>
+       <target>Risultati</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/result/result.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94516fa213706c67ce5a5b5765681d7fb032033a" datatype="html">
+        <source>Loading...</source>
+       <target>Caricamento...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/result/result.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="77241bd2ee9599db8524b3a762c74d0ee45cac83" datatype="html">
+        <source>Search for a product</source>
+       <target>Ricerca di un prodotto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit><trans-unit id="22104d019ec2e0c9f4070fc5c7da78e2dbd1e482" datatype="html">
+        <source>Choose the appropriate filters in order to get exactly what you need</source>
+        <target state="new">Scegliere i filtri appropriati per ottenere esattamente ciò di cui si ha bisogno</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49b36940e18ca195526e2b742f711c63ad4c7b5e" datatype="html">
+        <source>Enter product name</source>
+       <target>Inserire il nome del prodotto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="441734e83090e9ae55cdb64f02970d12c4869f89" datatype="html">
+        <source>Include Out of Stock items</source>
+       <target>Includi le voci fuori stock</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8ab4ee82068024b6c8860953da34d1a9edf5eaf6" datatype="html">
+        <source>Primary Amazon</source>
+       <target>Amazon primario</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dfcb8958e6e54403d2862da5462059b84edcea36" datatype="html">
+        <source> Delivery</source>
+       <target>Consegna</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc205d1ba280b872a29ef07104e878727be94e7c" datatype="html">
+        <source>Amazon Global</source>
+       <target>Amazon Global</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b936f51f7cd37e3dc07bc7addd6db0d28efe191" datatype="html">
+        <source>Free shipping</source>
+       <target>Spedizione gratuita</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ffe3814c86dac46ae996ea411481c90b6f0b6b3f" datatype="html">
+        <source>Fulfilled by Amazon</source>
+       <target>Realizzato da Amazon</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit><trans-unit id="ab649b19429e304ad9feb023be5f57f4da3fab54" datatype="html">
+        <source>Prime</source><target state="new">Prime</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d53bd74a62e4527eea198207dc9dc6c20ef06fd2" datatype="html">
+        <source>Minimum rating</source>
+       <target>Valutazione minima</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3035e59206df4477a9d6a702467de14f083da22a" datatype="html">
+        <source> Condition</source>
+       <target>condizione</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16d449549ab7bc61caf3d636372a4a56b5870383" datatype="html">
+        <source>Any</source>
+       <target>Qualsiasi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d81f00c85d3b507f3e3d78bfc617a2c66e028391" datatype="html">
+        <source>New</source>
+       <target>Nuovo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fb2e1bed329dc5b84197808c778abb9edcbdb335" datatype="html">
+        <source>Used</source>
+       <target>Usato</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1f95d62f2dd45265aeba9febc2ce211196a75548" datatype="html">
+        <source>Collectible</source>
+       <target>Da collezione</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8d18b04f1dfdb0f6b7f38df8beec9b8822e8dca5" datatype="html">
+        <source>Refurbished</source>
+       <target>Ristrutturato</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0bedccfceb01d565bc7120ddca3ee0cded91edc" datatype="html">
+        <source>Price range</source>
+       <target>Fascia di prezzo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec97f67072a83aaa972536b18d83179f6e4bbec9" datatype="html">
+        <source>Sort by</source>
+       <target>Ordina per</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1923abb3caef21a11d210ce5255e913ab8afd4b1" datatype="html">
+        <source>Average customer review</source>
+       <target>Recensione media dei clienti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d06e27f7453fcf29134f9e61533ea4eb4b890f5f" datatype="html">
+        <source>Featured</source>
+       <target>In primo piano</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b70fc219a76c664f0502adf1f9976c9356f8e75" datatype="html">
+        <source>Newest Arrivals</source>
+       <target>Nuovi arrivi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c9739accfff6835737f7b28c08b66fa50c2deeb9" datatype="html">
+        <source>Price : Highest to lowest</source>
+       <target>Prezzo : Dal più alto al più basso</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0752ddf0afcd209616c5fe6b91a4476ca7da721e" datatype="html">
+        <source>Price : Lowest to highest</source>
+       <target>Prezzo : Dal più basso al più alto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed073fec00d699b7a97bb65b4f3a722b203c5bca" datatype="html">
+        <source>Relevance</source>
+       <target>Pertinenza</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="994363f08f9fbfa3b3994ff7b35c6904fdff18d8" datatype="html">
+        <source>Profile</source>
+       <target>Profilo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html">
+        <source>Logout</source>
+       <target>Logout</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0843de0a64adcc7ee6a946408b6876cd8abdcae" datatype="html">
+        <source>English</source>
+       <target>Inglese</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eb64c04afa79183b2eb12447491c9761e17c2c67" datatype="html">
+        <source>German</source>
+       <target>Tedesco</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8293a584b57b870aca184a23bb8039c829acc4cf" datatype="html">
+        <source>French</source>
+       <target>Francese</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b2fa65763b744291e832a3c5fa0ce8641da2911" datatype="html">
+        <source>Spanish</source>
+       <target>Spagnolo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="89b1f695bdcf25218fed3734264bd84c811a4934" datatype="html">
+        <source>Italian</source>
+       <target>Italiano</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="287d3301a32a65a1b31116bda5d3a6463158c42a" datatype="html">
+        <source>Sign in</source>
+       <target>Accedi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c40c132843f349c3aa49730405de1d0ca733aef6" datatype="html">
+        <source>Sign up</source>
+       <target>Iscriviti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0add707baf7b167d0c0e9cdeb80f946aa1bd2223" datatype="html">
+        <source>Favorites</source>
+       <target>Preferiti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="708bd560c3586cb0b766b3311684291219fe4af1" datatype="html">
+        <source> You don't have any favorite products yet, start adding some</source>
+       <target> Non avete ancora prodotti preferiti, iniziate ad aggiungerne alcuni</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f3e918fdab10f989002f994a31d832b283124967" datatype="html">
+        <source>Welcome <x id="INTERPOLATION" equiv-text="{{firstName}}"/> <x id="INTERPOLATION_1" equiv-text="{{lastName}}"/></source>
+       <target>Benvenuti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02245591dc8706e52c5375ba8e4ae18e067633d2" datatype="html">
+        <source>Change your account password</source>
+       <target>Cambia la password del tuo account</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62b6c66981335ca6eecc36b331103c60f09d1026" datatype="html">
+        <source>First name</source>
+       <target>Nome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="166b2cc65003221ff5f3ec05d5baca41e6821396" datatype="html">
+        <source>Last Name</source>
+       <target>Cognome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0eb15f32b2b92d7f3103ef3ff032621888a8dc32" datatype="html">
+        <source>Old password</source>
+       <target>Vecchia password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a199a65e90bf1b47edef805ba9133c888cf9c2fd" datatype="html">
+        <source>Old password is required</source>
+       <target>La vecchia password è richiesta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit><trans-unit id="e70e209561583f360b1e9cefd2cbb1fe434b6229" datatype="html">
+        <source>New password</source>
+        <target state="new">Nuova password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65c5198bec66074235998cda494c04b708b94cdd" datatype="html">
+        <source>New Password is required</source>
+       <target>È richiesta una nuova password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a2cf892d7a590926cf08859bfd14064c1c9cd6a" datatype="html">
+        <source>Password must be at least 6 characters</source>
+       <target>La password deve essere di almeno 6 caratteri</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f3bdcce4b2e8c37cd7f0f6c92ef8cff34b039b8" datatype="html">
+        <source>Confirm password</source>
+       <target>Confermare la password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eb48b798714d744f385f9a8900fe2c09627ef094" datatype="html">
+        <source>Confirm Password is required</source>
+       <target>Conferma password richiesta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b17c891f5dd23f9c6b6301ed7a04d2f827a4bd05" datatype="html">
+        <source>Passwords must match</source>
+       <target>Le password devono corrispondere</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fd4dc0c2356dee337d6ed24a85ee6763c4ab6374" datatype="html">
+        <source>Update password</source>
+       <target>Aggiornare la password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/change-password/change-password.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b9673368b331d72038a1c2378242a23433b56492" datatype="html">
+        <source>Prefrences</source>
+       <target>Preferenze</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/prefrences-modal/prefrences-modal.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5792fc8f9a037e621aa4258e538e2a6608e73ee9" datatype="html">
+        <source>Show prices from</source>
+       <target>Mostra prezzi da</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/prefrences-modal/prefrences-modal.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a2536d58dd9fa4fe643d3ac79e91ecb7ee2d7df" datatype="html">
+        <source>(Coming soon)</source>
+       <target>(Prossimamente)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/prefrences-modal/prefrences-modal.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="32072c7fb0469aaf82d256a59b3e0d6ecce973b9" datatype="html">
+        <source>Currency</source>
+       <target>valuta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/prefrences-modal/prefrences-modal.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f4e529ae5ffd73001d1ff4bbdeeb0a72e342e5c8" datatype="html">
+        <source>Close</source>
+       <target>Chiudere</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/prefrences-modal/prefrences-modal.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/save-search-modal/save-search-modal.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="afa960379d26eb20fd22e6e10537c1c5ec74c5d1" datatype="html">
+        <source>Save Changes</source>
+       <target>Salva le modifiche</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/prefrences-modal/prefrences-modal.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="69b6ac577a19acc39fc0c22342092f327fff2529" datatype="html">
+        <source>Email address</source>
+       <target>Indirizzo e-mail</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="30054c89b9ec4c5a6720aa3bb7710aac0db2285c" datatype="html">
+        <source>Enter email</source>
+       <target>Inserisci l'e-mail</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b2fd2a81342b5821f47ce0e6f2383b1403fd659" datatype="html">
+        <source>Email is required</source>
+       <target>L'e-mail è richiesta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
+        <source>Password</source>
+       <target>Password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1e20f8b8a4706526c9024cc2f39d568345d100dc" datatype="html">
+        <source>Password is required</source>
+       <target>La password è richiesta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9eb24f062e9063eed7559d5193702fc3b8162c59" datatype="html">
+        <source> Login</source>
+       <target>Login</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
+        <source>Email</source>
+       <target>E-mail</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d17296d557e0315b665d9a45ba1be7445e9a9cd0" datatype="html">
+        <source>Email must be a valid email address</source>
+       <target>L'e-mail deve essere un indirizzo e-mail valido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c1b7e6d75ff4285c7636c67e5ef259629b81725b" datatype="html">
+        <source>Confirm Password</source>
+       <target>Conferma password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c83b838d845690bcb897f775f53b5316535306dc" datatype="html">
+        <source>First Name</source>
+       <target>Conferma la password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cab468dd7303f0863af969989f3c1a1475740415" datatype="html">
+        <source>First Name is required</source>
+       <target>Il nome è richiesto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc2e75a51145dfc8b511b8a47175f9b65f82d9c7" datatype="html">
+        <source>Last Name is required</source>
+       <target>Il cognome è richiesto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d336bb921d03c9ab2eca873454a7f83793e4ccf5" datatype="html">
+        <source> Account created, please confirm your email address </source>
+       <target>Account creato, si prega di confermare il vostro indirizzo e-mail</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cfc2f436ec2beffb042e7511a73c89c372e86a6c" datatype="html">
+        <source>Register</source>
+       <target>Registrati</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="892fdc26baa35c8b20b0f8a5dd35eb314c9c612d" datatype="html">
+        <source>Saved searches</source>
+       <target>Ricerche salvate</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/saved-search/saved-search.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="637e9bceedc460fb148827e5bd23adb4035b7ee1" datatype="html">
+        <source>Save search</source>
+       <target>Salva ricerca</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/save-search-modal/save-search-modal.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+        <source>Name</source>
+       <target>Nome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/save-search-modal/save-search-modal.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5b752f143ab30faa45a2679b5e7a28bbf3fb246d" datatype="html">
+        <source>Name is required</source>
+       <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/save-search-modal/save-search-modal.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9f6bea2eab7836621a03f29a9aac66c2f4fe0020" datatype="html">
+        <source>Save </source>
+       <target>Il nome è richiesto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/save-search-modal/save-search-modal.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d3c54c457e9ef3b05db93e8897b57914791f5ed7" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/> Get in touch</source>
+       <target>Mettiti in contatto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fbf4b43fb7653ee3a08130f33861b6618ac1157b" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/>  info</source>
+       <target>Informazioni</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c9486f839d1de8592ef2a88a156a4b3906a29f4" datatype="html">
+        <source>As an Amazon Associate, we earn from qualifying purchases.
+            </source>
+       <target>In qualità di Amazon Associate, guadagniamo con acquisti qualificanti.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fb5e0d3449b220a60494f0ba5d52b69e3d853cd4" datatype="html">
+        <source>© 2020 PRODUCT-GUIDES. All Rights Reserved. Powered by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>IT-TUN<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> </source>
+       <target>© 2020 PRODUCT-GUIDES. Tutti i diritti riservati. Realizzato da <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>IT-TUN<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="72e6f277de80a706a36675e01f0a4eabc2fd3f7a" datatype="html">
+        <source>This website uses cookies to ensure
+                you get the best experience on our website. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/> More info <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/></source>
+       <target>Questo sito web utilizza i cookie per garantire
+                si ottiene la migliore esperienza sul nostro sito web.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/coockie/coockie.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ce3bb7411069c96e2065502c115323680e7f1ce0" datatype="html">
+        <source>Decline</source>
+       <target>Diminuire</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/coockie/coockie.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8a1e08d94553d687285cd3cdf2d54df6734aa6ae" datatype="html">
+        <source>Got
+                    it!</source>
+       <target>Trovato
+                    esso!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/coockie/coockie.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

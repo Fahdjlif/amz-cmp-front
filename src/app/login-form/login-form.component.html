@@ -1,0 +1,28 @@
+<form  [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="email" i18n>Email address</label>
+    <input required formControlName="email" class="form-control" id="email" aria-describedby="emailHelp"i18n-placeholder placeholder="Enter email" type="email">
+    <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+        <div *ngIf="f.email.errors.required" i18n>Email is required</div>
+    </div>           
+    </div>
+    <div class="form-group">
+        <label for="password" i18n>Password</label>
+        <input  required formControlName="password" class="form-control" id="password" i18n-placeholder placeholder="Password" type="password">
+        <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+            <div *ngIf="f.password.errors.required" i18n>Password is required</div>
+        </div>
+    </div> 
+    <p *ngIf="error" class="error">
+        {{ error }}
+      </p>
+    <div id="login-modal-footer" class="modal-footer">
+        <button type="button" class="btn btn-b" data-dismiss="modal" i18n>Close</button>
+        <div class="form-group">
+        <button [disabled]="!form.valid" class="btn btn-b" (click)="onSubmit() " >
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            <span i18n> Login</span>
+        </button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,25 @@
+PS F:\paapi5-nodejs-sdk-example> node .\sampleGetBrowseNodesApi.js
+API called successfully.
+Complete Response: 
+{
+ "BrowseNodesResult": {
+  "BrowseNodes": [
+   {
+    "Ancestor": {
+     "Ancestor": {
+      "ContextFreeName": "Apps & Games",
+      "DisplayName": "Apps & Games",
+      "Id": "1661648031"
+     },
+     "ContextFreeName": "Apps for Android",
+     "DisplayName": "Categories",
+     "Id": "1661650031"
+    },
+    "ContextFreeName": "Game Apps",
+    "DisplayName": "Games",
+    "Id": "1720689031",
+    "IsRoot": false
+   }
+  ]
+ }
+}

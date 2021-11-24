@@ -1,0 +1,160 @@
+<section id="topProducts" class="background-grey section-custom">
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-md-10">
+                        <span class="h4" i18n>Search for a product</span>
+                        <p i18n class="text-muted">Choose the appropriate filters in order to get exactly what you need</p>
+                    </div>
+                    <div class="col-md-1" *ngIf="isLoggedIn">
+                        <button i18n class="btn btn-lg btn-slide btn-danger" data-target="#modal-save-search" (click)="updateSearchFilter(false)" title="Save search" data-toggle="modal"  href="#" style="width: 60px;">     
+                            <i class="fa fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="col-md-1" *ngIf="isLoggedIn">
+                        <button class="btn btn-lg btn-slide btn-info" (click)="refreshSearchFilter()" title="Refresh search"  href="#" style="width: 60px;">     
+                            <i class="icon-rotate-cw"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-body">
+
+                <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-validate">
+                    <div class="form-row">
+                        <div class="form-group col-md-1">
+
+                        </div>
+                        <div class="form-group col-md-9">
+                            <input type="text" formControlName="keyword" class="form-control search-input" name="keyword" i18n-placeholder placeholder="Enter product name"
+                                required>
+                        </div>
+                      
+                        <div class="form-group col-md-2">
+                            <button type="submit" action="onSubmit()" class="btn btn-outline search-button" > <i class="fa fa-search"></i> </button>
+                         
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group col-md-1">
+
+                        </div>
+                        <div class="form-group col-md-4">
+                            <h6 i18n>Include Out of Stock items</h6>
+
+                            <label class="p-switch switch-color-primary">
+                                <input id="availabilitySwitch"type="checkbox"formControlName="availability"><span class="p-switch-style"></span>
+                            </label>
+                            <h6 i18n>Primary Amazon</h6>
+                        
+                            <select id= "accounts" formControlName="accounts">
+                                <option *ngFor="let account of accounts" value={{account.localeCode}}  style="padding-left: 6px">
+                                {{account.localeCode}}</option>
+                            
+                            </select>
+                          
+                        </div>
+                        <div class="form-group col-md-2">
+
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label i18n for ="deliverySelect"> Delivery</label>
+                            <select  id="deliverySelect"  formControlName= "deliveryFlags" class="dropdown-menu"  name="delivery" class="form-control" multiple>
+                                <option value=""></option>
+                                <option i18n value="AmazonGlobal">Amazon Global</option>
+                                <option i18n value="FreeShipping">Free shipping</option>
+                                <option i18n value="FulfilledByAmazon">Fulfilled by Amazon</option>
+                                <option i18n value="Prime">Prime</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-md-1">
+                       </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-1">
+                           
+
+                        </div>
+                        <div class="form-group col-md-4">
+                            <h6 i18n>Minimum rating</h6>
+                            <!-- <div class="rateit" id="rating" data-rateit-mode="font" data-rateit-value="1">
+                            </div> -->
+                            <star-rating-control formControlName="minReviewsRating" [starType]="'svg'" [rating]="rating"></star-rating-control>
+                        </div>
+                        <div class="form-group col-md-2">
+                          
+
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label i18n for ="conditionSelect"> Condition</label>
+                          
+                            <select id= "conditionSelect"class="dropdown-menu"  formControlName= "condition" name="condition" class="form-control">
+                                <option value=""></option>
+                                <option i18n value="any">Any</option>
+                                <option i18n value="new">New</option>
+                                <option i18n value="used">Used</option>
+                                <option i18n value="collectible">Collectible</option>
+                                <option i18n value="refurbished">Refurbished</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-1">
+
+                         
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-1">
+
+                        </div>
+                        <div class="form-group col-md-4">
+                            <div class="m-b-40">
+                                <h6 i18n>Price range</h6>
+                                <input type="hidden" id="range_slider_3"  />
+                            </div>
+                        </div>
+                        <div class="form-group col-md-2">
+                          
+
+                        </div>
+                        <div class="form-group col-md-4">
+
+                            <label  i18n for="sortBySelect">Sort by</label>
+
+                            <select id="sortBySelect" class="dropdown-menu" formControlName= "sortBy" name="sortBy" class="form-control">
+                                <option value=""></option>
+                                <option i18n value="AvgCustomerReviews">Average customer review</option>
+                                <option i18n value="Featured">Featured</option>
+                                <option i18n value="NewestArrivals">Newest Arrivals</option>
+                                <option i18n value="Price:HighToLow">Price : Highest to lowest</option>
+                                <option i18n value="Price:LowToHigh">Price : Lowest to highest</option>
+                                <option i18n value="Relevance">Relevance</option>
+                            </select>
+                        </div>
+
+
+                        <div class="form-group col-md-1">
+
+                         
+                        </div>
+                    </div>
+                                       
+                </form>
+            </div>
+        </div>
+    </div>
+
+   
+</section>
+<script> 
+$("rating").rateit('step', 1);
+</script>
+<app-result>
+</app-result>
+<div class="modal fade modal-top" id="modal-save-search" tabindex="-1" role="modal" aria-labelledby="modal-label-3" aria-modal="true" style="padding-right: 15px;margin-top: 350px;display: block;">
+    <app-save-search-modal></app-save-search-modal>
+      </div>

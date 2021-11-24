@@ -1,0 +1,16 @@
+<div *ngIf="!hasConsented()" id="cookieNotify" class="modal-strip cookie-notify background-dark modal-active" data-delay="hide:3000"
+    data-expire="1" data-cookie-name="cookiebar2020_1" data-cookie-enabled="true">
+    <div class="container">
+        <div class="row">
+            <div i18n class="col-lg-8 text-sm-center sm-center sm-m-b-10 m-t-5">This website uses cookies to ensure
+                you get the best experience on our website. <a href="#" class="text-light"><span> More info <i
+                            class="fa fa-info-circle"></i></span></a></div>
+            <div class="col-lg-4 text-right sm-text-center sm-center">
+                <button i18n type="button"
+                    class="btn btn-rounded btn-light btn-outline btn-sm m-r-10 modal-close">Decline</button>
+                <button i18n type="button" class="btn btn-rounded btn-light btn-sm modal-confirm" (click)="consent()">Got
+                    it!</button>
+            </div>
+        </div>
+    </div>
+</div>
